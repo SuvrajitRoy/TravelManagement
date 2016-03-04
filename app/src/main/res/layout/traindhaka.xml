@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFF8DC" >
+
+    <Button
+        android:id="@+id/btnNoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOAKHALI EXPRESS"
+        android:background="#191970"
+         android:textColor="@android:color/primary_text_dark_nodisable" 
+         android:onClick="showNoakhali"/>
+
+    <Button
+        android:id="@+id/btnDha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPOKUL EXPRESS"
+        android:background="#800000"
+        android:textColor="@android:color/primary_text_dark_nodisable" 
+        android:onClick="showDhaka"/>
+
+</LinearLayout>

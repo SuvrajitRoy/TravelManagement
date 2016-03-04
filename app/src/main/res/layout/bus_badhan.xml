@@ -1,0 +1,112 @@
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:padding="16dp"
+    android:background="#FFF8DC">
+    <RelativeLayout android:id="@+id/layout1"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="#BA55D3">
+        <TextView android:id="@+id/tvB1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="		Ticket Price:
+            						200Tk"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    
+    <View android:id="@+id/viewB1"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:background="#FFF8DC"
+        android:layout_below="@id/layout1"/>
+    
+    <RelativeLayout android:id="@+id/layout2"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:background="#00FA9A"
+        android:layout_below="@id/viewB1">
+        
+        <TextView android:id="@+id/tvB2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="	Schedule:"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <TextView android:id="@+id/tvB3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="4am to 11pm (Every 30min Bus dispatched from Noakhali)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/tvB2"/>
+        <TextView android:id="@+id/tvB4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="7am to 11pm  (Every 30min Bus dispatched from Chittagong)"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/tvB3"/>
+    </RelativeLayout>
+     <View android:id="@+id/viewB2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFF8DC"
+        android:layout_below="@id/layout2"/>
+     
+     <RelativeLayout android:id="@+id/layout3"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:background="#7B68EE"
+        android:layout_below="@id/viewB2">
+        <TextView android:id="@+id/tvB5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Noakhali Counter Number:"
+            			
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <Button android:id="@+id/callB1"
+            android:layout_height="30dp"
+            android:layout_width="200dp"
+            android:text="01818958739"
+            android:textColor="#FFFAF0"
+            android:textSize="20sp"
+            android:layout_below="@id/tvB5"
+            android:background="#800000"
+            android:onClick="callB1"
+            />
+        <Button android:id="@+id/callB2"
+            android:layout_height="30dp"
+            android:layout_width="200dp"
+            android:text="01855906853"
+            android:textColor="#FFFAF0"
+            android:textSize="20sp"
+            android:layout_below="@id/callB1"
+            android:background="#A0522D"
+            android:onClick="callB2"
+            />
+        <TextView android:id="@+id/tvB6"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Chittagong Counter Number:"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/callB2"/>
+        <Button android:id="@+id/callB3"
+            android:layout_height="30dp"
+            android:layout_width="200dp"
+            android:text="01816707740"
+            android:textColor="#FFFAF0"
+            android:textSize="20sp"
+            android:layout_below="@id/tvB6"
+            android:background="#A0522D"
+            android:onClick="callB3"
+            />
+        
+    </RelativeLayout>
+    
+
+</RelativeLayout>
+

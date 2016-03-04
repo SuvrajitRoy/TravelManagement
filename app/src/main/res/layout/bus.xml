@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8DC" >
+
+    <Button
+        android:id="@+id/busbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DHAKA"
+        android:textStyle="italic"
+        android:background="#191970"
+         android:textColor="@android:color/primary_text_dark_nodisable"
+        
+         />
+    
+
+    <Button
+        android:id="@+id/busbutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHITTAGONG"
+        android:textStyle="italic"
+       android:background="#800000"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+         />
+
+    <Button
+        android:id="@+id/busbutton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMILLA"
+        android:textStyle="italic"
+        android:background="#191970"
+         android:textColor="@android:color/primary_text_dark_nodisable"
+         />
+
+    <Button
+        android:id="@+id/busbutton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SYLHET"
+        android:textStyle="italic"
+       android:background="#800000"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        />
+    <Button
+        android:id="@+id/busbutton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FENI"
+        android:textStyle="italic"
+        android:background="#191970"
+         android:textColor="@android:color/primary_text_dark_nodisable"
+       />
+
+</LinearLayout>

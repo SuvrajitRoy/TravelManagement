@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cste.nstu06.suvro.travelmanagement" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-feature android:name="android.hardware.telephony"
+        android:required="true"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cste.nstu06.suvro.travelmanagement.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cste.nstu06.suvro.travelmanagement.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.BusDhaka"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.BusEkushe"> </activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.BusAsia"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.BusCtg"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.BusBadhan"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.BusComilla"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.BusSylhet"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.BusFeni"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.BusBrtc"></activity>
+
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.TrainComilla"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.DemoTrain"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.TrainDhaka"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.TrainNoaEx"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.TrainUpkEx"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.TrainLaksham"></activity>
+        <activity android:name="com.cste.nstu06.suvro.travelmanagement.TrainSomotot"></activity>
+
+    </application>
+
+</manifest>
